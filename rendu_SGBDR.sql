@@ -101,7 +101,10 @@ SELECT NetflixShows.title FROM NetflixShows INNER JOIN NetflixTitle ON NetflixSh
 
 SELECT SUM(duration) FROM NetflixTitle WHERE NetflixTitle.type = 'Movie'
 
-"A creuser"
+"A creuser car la durée n'est pas mise en forme, ici on est en presence de string qu'on pourrait caster mais il y a aussi l'inité ->min"
+#SELECT duration, SUBSTR(duration, 1, 3), LENGTH(SUBSTR(duration, 1, 3))
+#FROM NetflixTitle WHERE NetflixTitle.type = 'Movie'
+
 
 
 # Question 11. Compter le nombre de TV Shows de votre table ‘netflix_shows’ dont le ‘ratingLevel’ est renseigné.
