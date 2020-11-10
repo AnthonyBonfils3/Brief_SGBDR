@@ -10,7 +10,7 @@
 
 ## "Connection au server mysql (bien spécifier --local-infile lorsqu'on se log pour load un BD)"
 ## "Toujours TOURJOURS load en local"
-mysql -u anthony -p --local-infile
+mysql --local-infile=1 -u anthony -p 
 
 # "sinon rajouter SET GLOBAL local_infile = 1;"
 
