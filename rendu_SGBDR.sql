@@ -1,4 +1,4 @@
-# Question 1. voir notebook veille
+# Question 1. voir notebook veille -> Veille_SGBD.ipynb
 
 
 # Question 2. Récuperer les deux DataSet
@@ -6,7 +6,7 @@
 
 # Question 3. Créer la base de données
 ## "Avant de créer la base de donnée, il faut étudier les données en python, notamant pour connaitre les longeurs de chacune des"
-## "chaines de caractère du tableau"
+## "chaines de caractère du tableau -> voir Lecture_fichiers_netflix.ipynb"
 
 ## "Connection au server mysql (bien spécifier --local-infile lorsqu'on se log pour load un BD)"
 ## "Toujours TOURJOURS load en local"
