@@ -206,7 +206,7 @@ DELETE FROM NetflixShows ORDER BY id DESC LIMIT 100;
 Use Netflix;
 DELETE FROM netflix_shows WHERE id BETWEEN 200 AND 300;
 
-### AUTRE POSIBILITE
+### AUTRE POSIBILITE sans avoir d'Id
 # SELECT * 
 # FROM netflix_shows
 # LIMIT 100 OFFSET 900;
